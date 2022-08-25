@@ -35,17 +35,25 @@ class StoreAdapter(val storeList: ArrayList<Stores>) :
 
     class CustomViewHolder(val binding: ItemStoreBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(store: Stores) = with(binding) {
-            val picturelist = store.pictures
+            val picturelist = store.pictures1
+            val picturelist2 = store.pictures2
+
             tvRank.text = store.rank
             ivStoreMain.setImageResource(store.store_main_img)
             tvStoreName.text = store.store_name
             tvStoreAbout.text = store.about_store
             tvCoupon.text = "최대 ${store.coupon}원 쿠폰"
             tvLikenum.text = store.likenum
+
             binding.rvPicture.layoutManager =
                 LinearLayoutManager(itemView.context, LinearLayoutManager.HORIZONTAL, false)
             binding.rvPicture.setHasFixedSize(true)
             binding.rvPicture.adapter = PictureAdapter(picturelist)
+
+            binding.rvPicture2.layoutManager =
+                LinearLayoutManager(itemView.context, LinearLayoutManager.HORIZONTAL, false)
+            binding.rvPicture2.setHasFixedSize(true)
+            binding.rvPicture2.adapter = PictureAdapter(picturelist2)
         }
     }
 }

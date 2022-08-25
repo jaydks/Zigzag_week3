@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/background_coupon.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/background_cv_pic_left.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/background_cv_pic_right.xml" value="0.1265" />
         <entry key="app/src/main/res/drawable/background_filter_btn_off.xml" value="0.1055" />
         <entry key="app/src/main/res/drawable/background_filter_btn_on.xml" value="0.1055" />
         <entry key="app/src/main/res/drawable/background_img_select_off.xml" value="0.1055" />

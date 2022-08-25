@@ -7,5 +7,7 @@ data class Stores(
     val about_store: String,
     val coupon: String?,
     val likenum: String,
-    val pictures: ArrayList<Pictures>
+    val pictures1: ArrayList<Pictures>,
+
+    val pictures2: ArrayList<Pictures>
 )

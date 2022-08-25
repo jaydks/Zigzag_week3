@@ -27,7 +27,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_2),
                     Pictures(R.drawable.pic_3),
                     Pictures(R.drawable.pic_4),
-                    Pictures(R.drawable.pic_5),
+                    Pictures(R.drawable.pic_5)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_6),
                     Pictures(R.drawable.pic_7),
                     Pictures(R.drawable.pic_8),
@@ -40,7 +42,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_11),
                     Pictures(R.drawable.pic_12),
                     Pictures(R.drawable.pic_13),
-                    Pictures(R.drawable.pic_14),
+                    Pictures(R.drawable.pic_14)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_15),
                     Pictures(R.drawable.pic_16),
                     Pictures(R.drawable.pic_17),
@@ -53,7 +57,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_20),
                     Pictures(R.drawable.pic_21),
                     Pictures(R.drawable.pic_22),
-                    Pictures(R.drawable.pic_23),
+                    Pictures(R.drawable.pic_23)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_24),
                     Pictures(R.drawable.pic_25),
                     Pictures(R.drawable.pic_1),
@@ -66,7 +72,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_4),
                     Pictures(R.drawable.pic_5),
                     Pictures(R.drawable.pic_6),
-                    Pictures(R.drawable.pic_7),
+                    Pictures(R.drawable.pic_7)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_8),
                     Pictures(R.drawable.pic_9),
                     Pictures(R.drawable.pic_10),
@@ -79,7 +87,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_13),
                     Pictures(R.drawable.pic_14),
                     Pictures(R.drawable.pic_15),
-                    Pictures(R.drawable.pic_16),
+                    Pictures(R.drawable.pic_16)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_17),
                     Pictures(R.drawable.pic_18),
                     Pictures(R.drawable.pic_19),
@@ -92,7 +102,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_22),
                     Pictures(R.drawable.pic_23),
                     Pictures(R.drawable.pic_24),
-                    Pictures(R.drawable.pic_25),
+                    Pictures(R.drawable.pic_25)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_1),
                     Pictures(R.drawable.pic_2),
                     Pictures(R.drawable.pic_3),
@@ -105,7 +117,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_6),
                     Pictures(R.drawable.pic_7),
                     Pictures(R.drawable.pic_8),
-                    Pictures(R.drawable.pic_9),
+                    Pictures(R.drawable.pic_9)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_10),
                     Pictures(R.drawable.pic_11),
                     Pictures(R.drawable.pic_12),
@@ -118,7 +132,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_15),
                     Pictures(R.drawable.pic_16),
                     Pictures(R.drawable.pic_17),
-                    Pictures(R.drawable.pic_18),
+                    Pictures(R.drawable.pic_18)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_19),
                     Pictures(R.drawable.pic_20),
                     Pictures(R.drawable.pic_21),
@@ -127,14 +143,15 @@ class RankingFragment : Fragment() {
             ),
 
 
-
             Stores(
                 "9", R.drawable.pic_15, "베니토", "러블리·오피스룩", "15,000", "75만",
                 arrayListOf(
                     Pictures(R.drawable.pic_23),
                     Pictures(R.drawable.pic_24),
                     Pictures(R.drawable.pic_25),
-                    Pictures(R.drawable.pic_1),
+                    Pictures(R.drawable.pic_1)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_2),
                     Pictures(R.drawable.pic_3),
                     Pictures(R.drawable.pic_4),
@@ -148,7 +165,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_7),
                     Pictures(R.drawable.pic_8),
                     Pictures(R.drawable.pic_9),
-                    Pictures(R.drawable.pic_10),
+                    Pictures(R.drawable.pic_10)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_11),
                     Pictures(R.drawable.pic_12),
                     Pictures(R.drawable.pic_13),
@@ -162,7 +181,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_16),
                     Pictures(R.drawable.pic_17),
                     Pictures(R.drawable.pic_18),
-                    Pictures(R.drawable.pic_19),
+                    Pictures(R.drawable.pic_19)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_20),
                     Pictures(R.drawable.pic_21),
                     Pictures(R.drawable.pic_22),
@@ -175,7 +196,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_25),
                     Pictures(R.drawable.pic_1),
                     Pictures(R.drawable.pic_2),
-                    Pictures(R.drawable.pic_3),
+                    Pictures(R.drawable.pic_3)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_4),
                     Pictures(R.drawable.pic_5),
                     Pictures(R.drawable.pic_6),
@@ -189,7 +212,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_9),
                     Pictures(R.drawable.pic_10),
                     Pictures(R.drawable.pic_11),
-                    Pictures(R.drawable.pic_12),
+                    Pictures(R.drawable.pic_12)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_13),
                     Pictures(R.drawable.pic_14),
                     Pictures(R.drawable.pic_15),
@@ -203,7 +228,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_18),
                     Pictures(R.drawable.pic_19),
                     Pictures(R.drawable.pic_20),
-                    Pictures(R.drawable.pic_21),
+                    Pictures(R.drawable.pic_21)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_22),
                     Pictures(R.drawable.pic_23),
                     Pictures(R.drawable.pic_24),
@@ -217,7 +244,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_3),
                     Pictures(R.drawable.pic_4),
                     Pictures(R.drawable.pic_5),
-                    Pictures(R.drawable.pic_6),
+                    Pictures(R.drawable.pic_6)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_7),
                     Pictures(R.drawable.pic_8),
                     Pictures(R.drawable.pic_9),
@@ -230,7 +259,9 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_12),
                     Pictures(R.drawable.pic_13),
                     Pictures(R.drawable.pic_14),
-                    Pictures(R.drawable.pic_15),
+                    Pictures(R.drawable.pic_15)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_16),
                     Pictures(R.drawable.pic_17),
                     Pictures(R.drawable.pic_18),
@@ -243,11 +274,13 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_21),
                     Pictures(R.drawable.pic_22),
                     Pictures(R.drawable.pic_23),
-                    Pictures(R.drawable.pic_24),
+                    Pictures(R.drawable.pic_24)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_25),
                     Pictures(R.drawable.pic_1),
                     Pictures(R.drawable.pic_2),
-                    Pictures(R.drawable.pic_3),
+                    Pictures(R.drawable.pic_3)
                 )
             ),
             Stores(
@@ -256,11 +289,13 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_5),
                     Pictures(R.drawable.pic_6),
                     Pictures(R.drawable.pic_7),
-                    Pictures(R.drawable.pic_8),
+                    Pictures(R.drawable.pic_8)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_9),
                     Pictures(R.drawable.pic_10),
                     Pictures(R.drawable.pic_11),
-                    Pictures(R.drawable.pic_12),
+                    Pictures(R.drawable.pic_12)
                 )
             ),
             Stores(
@@ -269,17 +304,20 @@ class RankingFragment : Fragment() {
                     Pictures(R.drawable.pic_14),
                     Pictures(R.drawable.pic_15),
                     Pictures(R.drawable.pic_16),
-                    Pictures(R.drawable.pic_17),
+                    Pictures(R.drawable.pic_17)
+                ),
+                arrayListOf(
                     Pictures(R.drawable.pic_18),
                     Pictures(R.drawable.pic_19),
                     Pictures(R.drawable.pic_20),
-                    Pictures(R.drawable.pic_21),
+                    Pictures(R.drawable.pic_21)
                 )
             )
 
         )
 
-        binding.rvStore.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
+        binding.rvStore.layoutManager =
+            LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         binding.rvStore.setHasFixedSize(true)
 
         binding.rvStore.adapter = StoreAdapter(storeList)
