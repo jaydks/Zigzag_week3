@@ -17,9 +17,10 @@
         <entry key="app/src/main/res/drawable/selector_menu_color.xml" value="0.1555" />
         <entry key="app/src/main/res/drawable/selector_mypage_icon.xml" value="0.1555" />
         <entry key="app/src/main/res/drawable/selector_store_icon.xml" value="0.1555" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22553039550781254" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.2622406005859375" />
-        <entry key="app/src/main/res/layout/fragment_lanking.xml" value="0.3277511596679687" />
+        <entry key="app/src/main/res/layout/fragment_lanking.xml" value="0.19956665039062502" />
+        <entry key="app/src/main/res/layout/fragment_ranking.xml" value="0.12962962962962962" />
         <entry key="app/src/main/res/layout/item_picture.xml" value="0.13677811550151975" />
         <entry key="app/src/main/res/layout/item_store.xml" value="0.25" />
         <entry key="app/src/main/res/menu/bottom_tab_menu.xml" value="0.262037037037037" />
@@ -31,5 +32,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.19956665039062502" />
+      </ProjectState>
+    </option>
   </component>
 </project>

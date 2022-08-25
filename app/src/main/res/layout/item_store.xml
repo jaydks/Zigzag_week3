@@ -58,6 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
+                    android:scaleType="center"
                     android:src="@drawable/img_store_main" />
 
 
@@ -167,18 +168,18 @@
                     android:orientation="horizontal">
 
 
+
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/rv_picture"
-                        android:layout_width="@dimen/margin_110"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="@dimen/margin_20"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:layout_marginStart="@dimen/margin_20" />
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraint_more"
-                        android:layout_gravity="center_vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginStart="@dimen/margin_20"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"

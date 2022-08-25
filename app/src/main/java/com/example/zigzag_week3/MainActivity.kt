@@ -3,13 +3,16 @@ package com.example.zigzag_week3
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.zigzag_week3.databinding.ActivityMainBinding
+import com.example.zigzag_week3.databinding.FragmentRankingBinding
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-    lateinit var tab1: LankingFragment
+    lateinit var binding2: FragmentRankingBinding
+    lateinit var tab1: RankingFragment
     lateinit var tab2: FavoritesFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        tab1 = LankingFragment()
+        tab1 = RankingFragment()
         tab2 = FavoritesFragment()
 
         supportFragmentManager.beginTransaction().add(R.id.framelayout, tab1).commit()
 
-        binding.tabLayout.addOnTabSelectedListener(object: TabLayout.OnTabSelectedListener {
+        binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabReselected(tab: TabLayout.Tab?) {
             }
 
@@ -35,14 +38,19 @@ class MainActivity : AppCompatActivity() {
                     1 -> replaceView(tab2)
                 }
             }
-
         })
 
+
+
+
+
     }
-    private fun replaceView(tab: Fragment){
+
+
+    private fun replaceView(tab: Fragment) {
         var selectedFragment: Fragment? = null
         selectedFragment = tab
-        selectedFragment?.let{
+        selectedFragment?.let {
             supportFragmentManager.beginTransaction().replace(R.id.framelayout, it).commit()
         }
     }
