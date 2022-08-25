@@ -56,6 +56,9 @@
     <dimen name="margin_240">240dp</dimen>
     <dimen name="margin_245">245dp</dimen>
     <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_270">270dp</dimen>
+    <dimen name="margin_280">280dp</dimen>
+    <dimen name="margin_290">290dp</dimen>
     <dimen name="margin_300">300dp</dimen>
 
     <dimen name="design_fab_size_normal" tools:override="true">45dp</dimen>

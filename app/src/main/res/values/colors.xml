@@ -8,7 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="divider">#E8E9EA</color>
-    <color name="lightblack">#5E5E5E</color>
+    <color name="lightblack">#636363</color>
     <color name="gray">#92989E</color>
+    <color name="gray2">#7B8189</color>
+    <color name="gray3">#ABB0B5</color>
+    <color name="lightblue">#8796E8</color>
+
+    <color name="lightblue2">#F0F3FF</color>
+
+    <color name="blue2">#6E7EF4</color>
+
 
 </resources>
