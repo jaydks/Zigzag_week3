@@ -9,11 +9,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_banner"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/margin_60"
         app:layout_constraintBottom_toTopOf="@id/tab_layout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_default="percent"
-        app:layout_constraintHeight_percent="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -43,23 +41,25 @@
 
         <ImageView
             android:id="@+id/img_top_search"
-            android:layout_width="@dimen/margin_35"
-            android:layout_height="@dimen/margin_35"
-            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginEnd="@dimen/margin_7"
+            android:layout_marginBottom="@dimen/margin_1"
             android:src="@drawable/img_top_search"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/img_top_cart"
             app:layout_constraintEnd_toStartOf="@id/img_top_cart"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/img_top_cart" />
 
         <ImageView
             android:id="@+id/img_top_more"
-            android:layout_width="@dimen/margin_35"
-            android:layout_height="@dimen/margin_35"
-            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_width="@dimen/margin_37"
+            android:layout_height="@dimen/margin_37"
+            android:layout_marginTop="@dimen/margin_3"
+            android:layout_marginEnd="@dimen/margin_7"
             android:src="@drawable/img_top_more"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/img_top_cart"
             app:layout_constraintEnd_toStartOf="@id/img_top_search"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/img_top_cart" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -67,12 +67,10 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_15"
         android:layout_marginEnd="@dimen/margin_15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_default="percent"
-        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/top_banner"
         app:tabIndicatorColor="@color/lightblack"
@@ -114,16 +112,14 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomnav"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:paddingBottom="@dimen/margin_17"
-        app:itemIconSize="@dimen/margin_40"
+        android:layout_height="@dimen/margin_65"
+        android:paddingBottom="@dimen/margin_5"
+        app:itemIconSize="@dimen/margin_30"
         app:itemIconTint="@drawable/selector_menu_color"
         app:itemTextColor="@drawable/selector_menu_color"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_default="percent"
-        app:layout_constraintHeight_percent="0.115"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_tab_menu">
 

@@ -19,10 +19,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/aboutstore"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/margin_95"
+            android:layout_height="@dimen/margin_90"
             app:layout_constraintBottom_toTopOf="@id/productimg"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -31,7 +30,7 @@
                 android:id="@+id/tv_rank"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_30"
+                android:layout_marginStart="@dimen/margin_20"
                 android:text="1"
                 android:textColor="@color/gray3"
                 android:textSize="17sp"
@@ -43,9 +42,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_store_main"
-                android:layout_width="@dimen/margin_55"
-                android:layout_height="@dimen/margin_55"
-                android:layout_marginStart="@dimen/margin_17"
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginStart="@dimen/margin_13"
                 app:cardCornerRadius="@dimen/margin_55"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/tv_rank"
@@ -69,10 +68,10 @@
                 android:id="@+id/tv_store_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="18dp"
+                android:layout_marginStart="15dp"
                 android:text="슬로우앤드"
-                android:textColor="#000000"
-                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textSize="14.7sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/tv_store_about"
                 app:layout_constraintStart_toEndOf="@+id/cv_store_main"
@@ -82,10 +81,10 @@
                 android:id="@+id/tv_store_about"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="4dp"
                 android:text="캠퍼스룩·심플베이지"
                 android:textColor="@color/gray3"
-                android:textSize="12.5sp"
+                android:textSize="11.3sp"
                 app:layout_constraintBottom_toTopOf="@+id/tv_coupon"
                 app:layout_constraintStart_toStartOf="@+id/tv_store_name"
                 app:layout_constraintTop_toBottomOf="@+id/tv_store_name" />
@@ -94,13 +93,13 @@
                 android:id="@+id/tv_coupon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_4"
+                android:layout_marginTop="@dimen/margin_5"
                 android:background="@drawable/background_coupon"
-                android:paddingHorizontal="@dimen/margin_5"
+                android:paddingHorizontal="@dimen/margin_4"
                 android:paddingVertical="@dimen/margin_2"
                 android:text="최대 10,000원 쿠폰"
                 android:textColor="@color/blue2"
-                android:textSize="9.5sp"
+                android:textSize="8.7sp"
                 app:layout_constraintBottom_toBottomOf="@id/cv_store_main"
                 app:layout_constraintStart_toStartOf="@+id/tv_store_about"
                 app:layout_constraintTop_toBottomOf="@+id/tv_store_about" />
@@ -115,8 +114,8 @@
 
                 <CheckBox
                     android:id="@+id/check_box"
-                    android:layout_width="@dimen/margin_27"
-                    android:layout_height="@dimen/margin_27"
+                    android:layout_width="@dimen/margin_23"
+                    android:layout_height="@dimen/margin_23"
                     android:layout_marginEnd="@dimen/margin_25"
                     android:background="@drawable/custom_checkbox"
                     android:button="@null"
@@ -130,6 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_1"
                     android:text="131.3만"
+                    android:textSize="10sp"
                     android:textColor="@color/gray2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@id/check_box"
@@ -146,8 +146,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/productimg"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/margin_130"
-            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_height="@dimen/margin_115"
+            android:layout_marginBottom="@dimen/margin_13"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -167,13 +167,24 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-
-
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/rv_picture"
+                    <androidx.cardview.widget.CardView
+                        app:cardCornerRadius="@dimen/margin_7"
+                        android:layout_marginStart="@dimen/margin_20"
+                        android:id="@+id/cv_picture"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="@dimen/margin_20" />
+                        android:layout_height="match_parent">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_picture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraint_more"
@@ -183,13 +194,13 @@
                         android:layout_marginStart="@dimen/margin_20"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@id/rv_picture"
+                        app:layout_constraintStart_toEndOf="@id/cv_picture"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
                             android:id="@+id/img_more"
-                            android:layout_width="@dimen/margin_65"
-                            android:layout_height="@dimen/margin_65"
+                            android:layout_width="@dimen/margin_55"
+                            android:layout_height="@dimen/margin_55"
                             android:layout_marginEnd="@dimen/margin_50"
                             android:background="@drawable/img_more"
                             android:button="@null"
@@ -205,7 +216,7 @@
                             android:layout_marginTop="@dimen/margin_4"
                             android:text="더 보기"
                             android:textColor="@color/lightblack"
-                            android:textSize="15sp"
+                            android:textSize="12.5sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="@id/img_more"
@@ -232,7 +243,7 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="0.7dp"
-        android:layout_marginHorizontal="@dimen/margin_20"
+        android:layout_marginHorizontal="@dimen/margin_15"
         android:background="@color/divider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

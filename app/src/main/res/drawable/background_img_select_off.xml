@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
     <item
         android:gravity="center"
-        android:width="@dimen/margin_20"
-        android:height="@dimen/margin_17"
+        android:width="@dimen/margin_17"
+        android:height="@dimen/margin_15"
         android:drawable="@drawable/img_selected_off"
         tools:ignore="ResourceCycle" />
 </layer-list>

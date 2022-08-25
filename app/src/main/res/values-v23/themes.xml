@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Theme.Zigzag_week3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -14,10 +15,4 @@
         <item name="android:windowLightStatusBar">true</item>
         <!-- Customize your theme here. -->
     </style>
-
-    <style name="tab_text" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">15.5sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
 </resources>

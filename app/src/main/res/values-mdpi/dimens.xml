@@ -12,12 +12,16 @@
     <dimen name="margin_7">7dp</dimen>
     <dimen name="margin_8">8dp</dimen>
     <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_11">11dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
     <dimen name="margin_13">15dp</dimen>
     <dimen name="margin_15">15dp</dimen>
     <dimen name="margin_17">17dp</dimen>
     <dimen name="margin_18">18dp</dimen>
     <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_23">23dp</dimen>
     <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
     <dimen name="margin_27">27dp</dimen>
     <dimen name="margin_30">30dp</dimen>
     <dimen name="margin_32">32dp</dimen>
@@ -27,8 +31,11 @@
     <dimen name="margin_40">40dp</dimen>
     <dimen name="margin_42">42dp</dimen>
     <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_47">47dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
     <dimen name="margin_50">50dp</dimen>
     <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_57">57dp</dimen>
     <dimen name="margin_60">60dp</dimen>
     <dimen name="margin_65">65dp</dimen>
     <dimen name="margin_70">70dp</dimen>
@@ -37,10 +44,12 @@
     <dimen name="margin_85">85dp</dimen>
     <dimen name="margin_90">90dp</dimen>
     <dimen name="margin_95">95dp</dimen>
-    <dimen name="margin_100">110dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_105">105dp</dimen>
     <dimen name="margin_110">110dp</dimen>
     <dimen name="margin_115">115dp</dimen>
     <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_125">125dp</dimen>
     <dimen name="margin_130">130dp</dimen>
     <dimen name="margin_135">135dp</dimen>
     <dimen name="margin_140">140dp</dimen>
@@ -56,8 +65,13 @@
     <dimen name="margin_240">240dp</dimen>
     <dimen name="margin_245">245dp</dimen>
     <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_255">255dp</dimen>
+    <dimen name="margin_260">260dp</dimen>
+    <dimen name="margin_265">265dp</dimen>
     <dimen name="margin_270">270dp</dimen>
+    <dimen name="margin_275">275dp</dimen>
     <dimen name="margin_280">280dp</dimen>
+    <dimen name="margin_285">285dp</dimen>
     <dimen name="margin_290">290dp</dimen>
     <dimen name="margin_300">300dp</dimen>
 
