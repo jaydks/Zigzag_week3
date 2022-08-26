@@ -168,7 +168,7 @@
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
-                        app:cardCornerRadius="@dimen/margin_5"
+                        app:cardCornerRadius="@dimen/margin_6"
                         android:layout_marginStart="@dimen/margin_20"
                         android:id="@+id/cv_picture"
                         android:layout_width="wrap_content"
@@ -183,7 +183,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        app:cardCornerRadius="@dimen/margin_5"
+                        app:cardCornerRadius="@dimen/margin_6"
                         android:layout_marginStart="@dimen/margin_1"
                         android:id="@+id/cv_picture2"
                         android:layout_width="wrap_content"
