@@ -54,4 +54,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.framelayout, it).commit()
         }
     }
+
+
 }

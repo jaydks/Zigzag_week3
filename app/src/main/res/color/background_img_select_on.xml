@@ -2,17 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <item
+        android:color="@color/lightblue"
         android:gravity="center"
         android:width="@dimen/margin_17"
         android:height="@dimen/margin_15"
-        android:drawable="@drawable/img_selected_on"
         tools:ignore="ResourceCycle"
         android:state_checked="true"/>
     <item
+        android:color="@color/divider"
         android:gravity="center"
         android:width="@dimen/margin_17"
         android:height="@dimen/margin_15"
-        android:drawable="@drawable/img_selected_off_1"
         tools:ignore="ResourceCycle"
         android:state_checked="false"/>
 </selector>

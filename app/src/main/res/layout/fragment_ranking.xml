@@ -12,15 +12,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/container_taplayout"
-            android:layout_marginStart="@dimen/margin_7"
             android:layout_width="@dimen/margin_260"
             android:layout_height="@dimen/margin_45"
+            android:layout_marginStart="@dimen/margin_7"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <com.google.android.material.tabs.TabLayout
-                app:tabPaddingStart="@dimen/margin_10"
-                app:tabPaddingEnd="@dimen/margin_10"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -29,6 +27,8 @@
                 app:layout_constraintWidth_default="percent"
                 app:layout_constraintWidth_percent="1"
                 app:tabIndicatorColor="@android:color/transparent"
+                app:tabPaddingEnd="@dimen/margin_10"
+                app:tabPaddingStart="@dimen/margin_10"
                 app:tabSelectedTextColor="@color/black"
                 app:tabTextAppearance="@style/tab_text"
                 app:tabTextColor="@color/gray2">
@@ -81,58 +81,92 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
-                    <TextView
-                        android:id="@+id/btn_filter1"
+
+                    <com.google.android.material.chip.ChipGroup
                         android:layout_width="wrap_content"
-                        android:layout_height="33dp"
-                        android:layout_marginTop="@dimen/margin_5"
-                        android:layout_marginStart="@dimen/margin_17"
-                        android:background="@drawable/background_filter_btn_on"
-                        android:gravity="center"
-                        android:paddingStart="@dimen/margin_13"
-                        android:paddingEnd="@dimen/margin_12"
-                        android:text="전체"
-                        android:textColor="@color/lightblue"
-                        android:textSize="13sp"
-                        android:textStyle="bold"
-                        app:drawableRightCompat="@drawable/background_img_select_on"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/margin_15"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
 
-                    <TextView
-                        android:id="@+id/btn_filter2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/margin_33"
-                        android:layout_marginTop="@dimen/margin_5"
-                        android:layout_marginStart="@dimen/margin_4"
-                        android:background="@drawable/background_filter_btn_off"
-                        android:gravity="center"
-                        android:paddingStart="@dimen/margin_13"
-                        android:paddingEnd="@dimen/margin_12"
-                        android:text="스타일"
-                        android:textColor="@color/gray2"
-                        android:textSize="13sp"
-                        android:textStyle="bold"
-                        app:drawableRightCompat="@drawable/background_img_select_off"
-                        app:layout_constraintStart_toEndOf="@id/btn_filter1"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        >
 
-                    <TextView
-                        android:id="@+id/btn_filter3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/margin_33"
-                        android:layout_marginTop="@dimen/margin_5"
-                        android:layout_marginStart="@dimen/margin_4"
-                        android:background="@drawable/background_filter_btn_off"
-                        android:gravity="center"
-                        android:paddingStart="@dimen/margin_13"
-                        android:paddingEnd="@dimen/margin_12"
-                        android:text="연령대"
-                        android:textColor="@color/gray2"
-                        android:textSize="13sp"
-                        android:textStyle="bold"
-                        app:drawableRightCompat="@drawable/background_img_select_off" app:layout_constraintStart_toEndOf="@id/btn_filter2"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip1"
+                            style="@style/CustomChipStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:text="전체"
+                            android:textColor="@color/chip_text_color"
+                            app:checkedIconVisible="false"
+                            app:chipBackgroundColor="@android:color/transparent"
+                            app:chipStrokeColor="@color/chip_stroke"
+                            app:chipStrokeWidth="@dimen/margin_1"
+                            app:closeIcon="@drawable/img_selected_off_1"
+                            app:closeIconEnabled="true"
+                            app:closeIconSize="@dimen/margin_17"
+                            app:closeIconEndPadding="@dimen/margin_2"
+                            app:closeIconTint="@color/chip_stroke"
+                            app:closeIconVisible="true"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip2"
+                            style="@style/CustomChipStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:text="스타일"
+                            android:textColor="@color/chip_text_color"
+                            app:checkedIconVisible="false"
+                            app:chipBackgroundColor="@android:color/transparent"
+                            app:chipStrokeColor="@color/chip_stroke"
+                            app:chipStrokeWidth="@dimen/margin_1"
+                            app:closeIcon="@drawable/img_selected_off_1"
+                            app:closeIconEnabled="true"
+                            app:closeIconSize="@dimen/margin_17"
+                            app:closeIconEndPadding="@dimen/margin_2"
+                            app:closeIconTint="@color/chip_stroke"
+                            app:closeIconVisible="true"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip3"
+                            style="@style/CustomChipStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:text="연령대"
+                            android:textColor="@color/chip_text_color"
+                            app:checkedIconVisible="false"
+                            app:chipBackgroundColor="@android:color/transparent"
+                            app:chipStrokeColor="@color/chip_stroke"
+                            app:chipStrokeWidth="@dimen/margin_1"
+                            app:closeIcon="@drawable/img_selected_off_1"
+                            app:closeIconEnabled="true"
+                            app:closeIconSize="@dimen/margin_17"
+                            app:closeIconEndPadding="@dimen/margin_2"
+                            app:closeIconTint="@color/chip_stroke"
+                            app:closeIconVisible="true"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+
+
+                    </com.google.android.material.chip.ChipGroup>
 
 
                     <View
@@ -140,11 +174,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="0.7dp"
                         android:background="@color/divider"
+                        app:layout_constraintBottom_toBottomOf="@id/filter_btn"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintBottom_toBottomOf="@id/filter_btn" />
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
                 <androidx.recyclerview.widget.RecyclerView

@@ -5,6 +5,6 @@
         android:gravity="center"
         android:width="@dimen/margin_17"
         android:height="@dimen/margin_15"
-        android:drawable="@drawable/img_selected_off"
+        android:drawable="@drawable/img_selected_off_1"
         tools:ignore="ResourceCycle" />
 </layer-list>
